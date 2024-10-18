@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* common css style start */
+.container{
+    max-width: 1240px;
+    margin: 0% auto;
+
+}
+.between{
+    display: grid;
+    gap: 5rem;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+}
+
+/* common css style End */
+
+.navbar{
+    max-width: 92%;
+    margin: 0% auto;
+    display: flex;
+    gap: 60px;
+    padding: 20px 40px;
+    color: #0b0736;
+
+    & h3{
+        font-weight: bold;
+        font-size: 24px;
+
+    }
+    & div{
+        border: 1px solid gainsboro;
+        padding: 8px;
+        display: flex;
+        gap: 8px;
+        font-weight: 600;
+        border-radius: 5px;
+
+    }
+}
+
+.banner-img{
+        position: absolute;
+        width: 50dvw;
+        right: 0;
+        top: 0;
+        z-index: -155;
+    }
+    .bannner-section{
+        padding: 120px 0px;
+        
+
+
+        & h1{
+            font-size: 90px;
+            font-weight: 600;
+            color: #0b0736;
+            margin-left: 150px;
+        }
+
+        & div{
+            padding: 20px 0;
+            display: flex;
+            gap: 4px;
+            color: #0b0736;
+            align-items: center;
+            justify-items: center;
+            font-size: 26px;
+            margin-left: 150px;
+        }
+
+
+    }
+button{
+    color:#fff;
+    background-color: #0b0736;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+
+.target-section container between{
+    padding: 140px 0;
+   
+
+
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+    .details-section{
+        & h2{
+            font-size: 70px;
+            font-weight: 600;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 30px 0px;
+        }
+    
+        .details{
+            padding: 40px 0;
+            color: grey;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .store{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 28px;
+            background-color: #cce8fd;
+            border-radius: 20px;
+            width: fit-content;
+
+            & p{
+                
+                font-size: 12px;
+                color: #9393c4;
+               
+
+            }
+            }
+            & h3{
+                font-size: 18px;
+                font-weight: 600px;
+            }
+            & img{
+                width: 25px;
+        }
+
+    }
+}
+/*track section */
+.track-section between{
+    position: relative;
+    .bg-track{
+        position: absolute;
+        z-index: -1;
+        left: 0%;
+        top: 10%;
+
+    }
+
+    .left-section{
+        & h2{
+            font-size: 85px;
+        }
+        .img-grid{
+            padding-top: 80px;
+            padding-left: 80px;
+            display: flex;
+            gap: 20px;
+
+            & div{
+                width: 150px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+            }
+            & div:nth-child(2){
+                margin-top: 40px;
+            }
+        }
+    }
+    .right-section{
+        & h3{
+            font-size: 40px;
+            color: #9393c4;
+            font-weight: 400;
+            padding-right: 8rem;
+        }
+
+
+        .details-div{
+            display: flex;
+            align-items: start;
+            gap: 30px;
+            margin-top: 60px;
+
+            & div{
+                padding-top: 20px;
+
+            
+                & h2{
+                font-size: 24px;
+                font-weight: 600;
+                }
+                & p{
+                    color: #9393c4;
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding-top: 20px;
+                    max-width: 300px;
+
+                }
+
+        }
+
+    }
+
+
+
+}   
+
+
+
+
+
+
+
+
+
